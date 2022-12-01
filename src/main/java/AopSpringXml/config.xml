@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="programmer" class="AopSpringXml.JavaProgrammer"/>
+
+    <bean id="office" class="AopSpringXml.Office" p:javaProgrammer-ref="proxyWithoutPointcut"/>
+    <bean id="advice" class="AopSpringXml.AuditAvice" />
+    <bean id="proxyOne" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:target-ref="programmer"
+          p:interceptorNames-ref="NameAdvisor"
+    />
+
+    <!--this part run in all method -->
+    <bean id="proxyWithoutPointcut" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:target-ref="programmer"
+          p:interceptorNames-ref="NameAdvice"
+    />
+    <util:list id="NameAdvisor">
+        <value>advisor</value>
+    </util:list>
+    <util:list id="NameAdvice">
+        <value>advice</value>
+    </util:list>
+
+
+
+    <!--this part is  pointcut -->
+    <bean id="advisor"
+          class="org.springframework.aop.support.DefaultPointcutAdvisor"
+          p:advice-ref="advice">
+        <property name="pointcut">
+            <bean class="org.springframework.aop.aspectj.AspectJExpressionPointcut"
+                  p:expression="execution(* code*(..))"
+            />
+        </property>
+
+    </bean>
+
+</beans>

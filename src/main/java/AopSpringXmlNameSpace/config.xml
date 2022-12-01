@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <bean id="programmer" class="AopSpringXmlNameSpace.JavaProgrammer" />
+    <bean id="office" class="AopSpringXmlNameSpace.Office"
+          p:javaProgrammer-ref="programmer" />
+    <bean id="adviceSimple" class="AopSpringXmlNameSpace.SimpleAdvice" />
+
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="piontcut" expression="execution(* AopSpringXmlNameSpace..code*(..))"/>-->
+<!--        <aop:aspect ref="adviceSimple" >-->
+<!--            <aop:before method="simplePointCut" pointcut-ref="piontcut" />-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+    <!--if pointcut is kind of around we can get ProcessingPointcut in method advice  -->
+    <aop:config>
+        <aop:pointcut id="pointcut"  expression="execution(* AopSpringXmlNameSpace..code*(..))"/>
+        <aop:aspect ref="adviceSimple">
+            <aop:around method="simplePointCutGetProcessingJoinpoint" pointcut-ref="pointcut"/>
+        </aop:aspect>
+    </aop:config>
+
+</beans>

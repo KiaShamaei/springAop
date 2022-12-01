@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49c350e9-4139-41b5-965a-504cf409ea7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassConfig/AspectEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassConfig/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassConfig/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassConfig/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicAfter/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicAfter/EmployeeDecoratorAfter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicAfter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicAround/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicAround/HumanDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicAround/TestAopClassic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicBefore/Employe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicBefore/EmployeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicBefore/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicDynamicWithPoiintcut/JavaProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicDynamicWithPoiintcut/PhpProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicDynamicWithPoiintcut/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicDynamicWithPoiintcut/ProgrammerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicDynamicWithPoiintcut/ProgrammerPointCutDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicDynamicWithPoiintcut/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicStaticWithPointcut/JavaProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicStaticWithPointcut/PhpProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicStaticWithPointcut/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicStaticWithPointcut/ProgrammerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicStaticWithPointcut/ProgrammerPointCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicStaticWithPointcut/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicThrowsAdvicd/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopClassicThrowsAdvicd/EmpolyeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringAnnotationAspectj/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringAnnotationAspectj/JavaProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringAnnotationAspectj/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringAnnotationAspectj/PointcutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringAnnotationAspectj/SimpleAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringAnnotationAspectj/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringExample/AspectSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringExample/AspectSimple2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringExample/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringExample/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringExample/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringExample/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXml/AuditAvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXml/JavaProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXml/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXml/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXml/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXmlNameSpace/JavaProgrammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXmlNameSpace/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXmlNameSpace/SimpleAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXmlNameSpace/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AopSpringXmlNameSpace/config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HODzQ3pJHyPcljSKluzjMPW4Cn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/SPRING/AoP/src/main/java/AopSpringAnnotationAspectj",
+    "spring.configuration.checksum": "9dbd231931ce3515ac7decc0e1912527"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SPRING\AoP\src\main\java\AopSpringAnnotationAspectj" />
+      <recent name="D:\SPRING\AoP\src\main\java\AopSpringXmlNameSpace" />
+      <recent name="D:\SPRING\AoP\src\main\java\AopClassicDynamicWithPoiintcut" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AopSpringXmlNameSpace" />
+      <recent name="AopClassicAfter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AopSpringExample.Test">
+    <configuration name="AopClassicDynamicWithPoiintcut.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AopClassicDynamicWithPoiintcut.Test" />
+      <module name="AoP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AopClassicDynamicWithPoiintcut.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopSpringAnnotationAspectj.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AopSpringAnnotationAspectj.Test" />
+      <module name="AoP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AopSpringAnnotationAspectj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopSpringExample.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AopSpringExample.Test" />
+      <module name="AoP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AopSpringExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopSpringXmlNameSpace.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AopSpringXmlNameSpace.Test" />
+      <module name="AoP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AopSpringXmlNameSpace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AopSpringXml.Test" />
+      <module name="AoP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AopSpringXml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AopSpringExample.Test" />
+        <item itemvalue="Application.AopSpringAnnotationAspectj.Test" />
+        <item itemvalue="Application.AopSpringXmlNameSpace.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.AopClassicDynamicWithPoiintcut.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49c350e9-4139-41b5-965a-504cf409ea7b" name="Changes" comment="" />
+      <created>1668147501093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668147501093</updated>
+      <workItem from="1668147503358" duration="757000" />
+      <workItem from="1668170664475" duration="2898000" />
+      <workItem from="1669125802085" duration="668000" />
+      <workItem from="1669178326863" duration="15521000" />
+      <workItem from="1669353289166" duration="2838000" />
+      <workItem from="1669378712414" duration="12037000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="0e26f346-0657-4206-a1ca-3bf369118315">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="a20d6fe0-d597-4ec5-a985-1a01b7cfb701">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="0e26f346-0657-4206-a1ca-3bf369118315" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+</project>
